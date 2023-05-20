@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn-container">
+            <button id="btn-1" onclick="bold()"><img src="images/bold.png" alt="" width="60%"></button>
+            <button id="btn-2" onclick="italic()"><img src="images/italic.png" alt="" width="60%"></button>
+            <button id="btn-3" onclick="underline()"><img src="images/underline.png" alt="" width="60%"></button>
+            <button id="btn-4"><input type="color" width="60%" id="color"></button>
+            <button id="btn-5" onclick="left()"><img src="images/justify-left-paragraph.png" alt="" width="60%"></button>
+            <button id="btn-6" onclick="center()"><img src="images/align-center.png" alt="" width="60%"></button>
+            <button id="btn-7" onclick="right()"><img src="images/justify-paragraph.png" alt="" width="60%"></button>
+        </div>
+        <div class="text-container">
+            <textarea id="textbox" onfocus="outline()"></textarea>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
